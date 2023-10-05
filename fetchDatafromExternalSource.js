@@ -1,3 +1,9 @@
+useEffect(() => {
+    
+    fetchData();
+
+  }, []);
+
 const fetchData = async () => {
   // Send a GET request to the specified URL
   const data = await fetch(
