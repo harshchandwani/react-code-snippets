@@ -6,4 +6,4 @@
             resData={restaurant} 
           />
         ))}
-      </div>
+</div>
