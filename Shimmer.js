@@ -24,3 +24,8 @@ function Shimmer() {
 }
 
 export default Shimmer
+
+//in the file you want include shimmer in 
+if(listOfRestaurants.length === 0){
+    return <h1>Loading.....</h1>
+  }
