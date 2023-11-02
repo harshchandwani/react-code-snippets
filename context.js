@@ -26,5 +26,5 @@ console.log(data.loggedInUser);
 
 //providing
 <UserContext.Provider value = {{loggedInUser : someName}}>
-all the data here
+all the data here where you wanted to update loggedInUser
     </UserContext.Provider>
